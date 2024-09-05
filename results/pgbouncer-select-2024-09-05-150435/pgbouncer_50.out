@@ -1,0 +1,33 @@
+pgbench (16.4)
+starting vacuum...pgbench: error: ERROR:  cannot execute VACUUM during recovery
+pgbench: detail: (ignoring this error and continuing anyway)
+pgbench: error: ERROR:  cannot execute VACUUM during recovery
+pgbench: detail: (ignoring this error and continuing anyway)
+pgbench: error: ERROR:  cannot execute TRUNCATE TABLE in a read-only transaction
+pgbench: detail: (ignoring this error and continuing anyway)
+end.
+progress: 5.0 s, 56237.5 tps, lat 0.722 ms stddev 0.564, 0 failed
+progress: 10.0 s, 65115.2 tps, lat 0.715 ms stddev 0.547, 0 failed
+progress: 15.0 s, 62578.9 tps, lat 0.741 ms stddev 0.628, 0 failed
+progress: 20.0 s, 67460.7 tps, lat 0.692 ms stddev 0.454, 0 failed
+progress: 25.0 s, 62024.1 tps, lat 0.744 ms stddev 0.669, 0 failed
+progress: 30.0 s, 51693.4 tps, lat 0.882 ms stddev 0.968, 0 failed
+progress: 35.0 s, 67611.4 tps, lat 0.693 ms stddev 0.496, 0 failed
+progress: 40.0 s, 67509.3 tps, lat 0.692 ms stddev 0.462, 0 failed
+progress: 45.0 s, 62411.1 tps, lat 0.736 ms stddev 0.650, 0 failed
+progress: 50.0 s, 69173.7 tps, lat 0.676 ms stddev 0.425, 0 failed
+progress: 55.0 s, 64303.1 tps, lat 0.722 ms stddev 0.553, 0 failed
+progress: 60.0 s, 64289.8 tps, lat 0.719 ms stddev 0.588, 0 failed
+transaction type: <builtin: select only>
+scaling factor: 256
+query mode: simple
+number of clients: 50
+number of threads: 2
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 3802063
+number of failed transactions: 0 (0.000%)
+latency average = 0.724 ms
+latency stddev = 0.591 ms
+initial connection time = 681.389 ms
+tps = 64094.123138 (without initial connection time)
